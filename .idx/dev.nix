@@ -9,6 +9,7 @@
     pkgs.python3
     pkgs.python311Packages.conda
     pkgs.graphicsmagick-imagemagick-compat
+    pkgs.python311Packages.uvicorn
     # pkgs.go
     # pkgs.python311
     # pkgs.python311Packages.pip
