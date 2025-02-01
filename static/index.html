@@ -1,0 +1,26 @@
+<!-- static/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lola</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    #chat { border: 1px solid #ccc; padding: 10px; height: 400px; overflow-y: scroll; }
+    .message { margin: 10px 0; }
+    .user { color: blue; }
+    .lola { color: green; }
+    #input-area { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Chat with Lola</h1>
+  <div id="chat"></div>
+  <div id="input-area">
+    <input type="text" id="question" placeholder="Type your question here" size="50"/>
+    <button onclick="sendMessage()">Send</button>
+    <button onclick="sendVoiceMessage()">Speak Back</button>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
